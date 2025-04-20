@@ -4,7 +4,7 @@ public class Solution_4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
         String a=sc.next();
-        StringBuffer sb= new StringBuffer();
+        StringBuffer sb= new StringBuffer(); //builder사용!
         
         for(char ch:a.toCharArray()){
             if('a'<=ch && ch<='z')
