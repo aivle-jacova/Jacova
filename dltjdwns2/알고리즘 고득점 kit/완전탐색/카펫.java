@@ -1,3 +1,4 @@
+package 완전탐색;
 import java.util.*;
 
 class Solution {
