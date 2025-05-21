@@ -12,7 +12,7 @@ public class p11720_숫자의합 {
         br.close();
 
         for(int i=0;i<n;i++) {
-            sum += Integer.parseInt(str[i]);
+            sum += Integer.parseInt(str[i]); 
         }
         System.out.println(sum);
     }
