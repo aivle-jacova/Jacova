@@ -7,7 +7,7 @@ public class p11720_숫자의합 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        int sum = 0;
+        int sum = 0; 
         String[] str = br.readLine().split("");
         br.close();
 

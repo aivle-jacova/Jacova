@@ -4,7 +4,7 @@ public class p1546_평균 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        long sum = 0;
+        long sum = 0; 
         long max = 0;
 
         for(int i=0; i<N; i++) {
