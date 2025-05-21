@@ -9,7 +9,7 @@ public class p1546_평균 {
 
         for(int i=0; i<N; i++) {
             int temp = sc.nextInt(); 
-            if(temp>max)max = temp; 
+            if(temp>max)max = temp;
             sum = sum + temp;
         }
         System.out.println(sum*100.0/max/N);
