@@ -8,7 +8,7 @@ public class p1546_평균 {
         long max = 0;
 
         for(int i=0; i<N; i++) {
-            int temp = sc.nextInt();
+            int temp = sc.nextInt(); 
             if(temp>max)max = temp; 
             sum = sum + temp;
         }
