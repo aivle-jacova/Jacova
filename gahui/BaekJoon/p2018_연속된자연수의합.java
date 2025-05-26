@@ -8,7 +8,7 @@ public class p2018_연속된자연수의합 {
         int N = sc.nextInt();
 
         int count = 1;
-        int start_index = 1;
+        int start_index = 1; 
         int end_index = 1;
         int sum = 1;
 

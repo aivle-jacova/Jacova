@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 public class p1874_수열만들기 {
-    static Stack<Integer> st = new Stack<>();
-    static int tmp=1;
+    static Stack<Integer> st = new Stack<>(); 
+    static int tmp=1; 
 
     public static void main(String[] args) throws IOException {
 
