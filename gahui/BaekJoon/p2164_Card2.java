@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class p2164_카드2 {
+public class p2164_Card2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class p2164_카드2 {
 
         int N = sc.nextInt();
 
-        for (int i=1; i<=N; i++){ 
+        for (int i=1; i<=N; i++){
             myQueue.add(i);
         }
         while (myQueue.size()>1) {
