@@ -10,7 +10,7 @@ public class p2164_카드2 {
 
         int N = sc.nextInt();
 
-        for (int i=1; i<=N; i++){
+        for (int i=1; i<=N; i++){ 
             myQueue.add(i);
         }
         while (myQueue.size()>1) {
