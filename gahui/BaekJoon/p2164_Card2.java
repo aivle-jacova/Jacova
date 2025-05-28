@@ -13,7 +13,7 @@ public class p2164_Card2 {
         for (int i=1; i<=N; i++){
             myQueue.add(i);
         }
-        while (myQueue.size()>1) {
+        while (myQueue.size()>1) { 
             myQueue.poll();
             myQueue.add(myQueue.poll());
         }
